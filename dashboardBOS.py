@@ -1,7 +1,7 @@
 import streamlit as st
 import pandas as pd
 
-df = pd.read_csv("C:/Users/aditi/Music/Project BOS/Dashboard/dashboard_keywords_full.csv")
+df = pd.read_csv("dashboard_keywords_full.csv")
 
 st.title('Pacific-Blue Dashboard')
 

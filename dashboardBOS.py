@@ -3,7 +3,7 @@ import pandas as pd
 
 df = pd.read_csv("dashboard_keywords_full.csv")
 
-st.title('Pacific-Blue Dashboard')
+st.title('Small Islands Big Oceans Dashboard')
 
 kw = st.selectbox('Choose a keyword:', sorted(df.Keyword.unique()))
 tier = st.radio('Meaning tier:', ['Meaning 1', 'Meaning 2', 'Meaning 3'])
